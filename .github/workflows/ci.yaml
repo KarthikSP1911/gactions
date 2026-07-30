@@ -17,7 +17,7 @@ jobs:
           node-version: 20
 
       - name: install dependencies
-        uses: npm ci
+        run: npm ci
       
       - name: run linter
         run: npm run lint
